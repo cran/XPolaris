@@ -6,11 +6,13 @@
 <!-- badges: start -->
 
 [![Travis build
-status](https://travis-ci.com/lhmrosso/XPolaris.svg?branch=master)](https://travis-ci.com/lhmrosso/XPolaris)
+status](https://travis-ci.com/lhmrosso/XPolaris.svg?branch=master)](https://app.travis-ci.com/github/lhmrosso/XPolaris)
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/github/lhmrosso/XPolaris?branch=master&svg=true)](https://ci.appveyor.com/project/lhmrosso/XPolaris)
 [![Codecov test
 coverage](https://codecov.io/gh/lhmrosso/XPolaris/branch/master/graph/badge.svg)](https://codecov.io/gh/lhmrosso/XPolaris?branch=master)
+[![CRAN
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/XPolaris)](https://CRAN.R-project.org/package=XPolaris)
 <!-- badges: end -->
 
 <img src="man/figures/xpolaris.png" height="300" align="right"/>
@@ -26,6 +28,13 @@ advanced skills on R-programming, users will be able to convert raster
 data into traditional spreadsheet format for further data analyses.
 
 ## Installation
+
+You can install the released version of XPolaris from
+[CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("XPolaris")
+```
 
 You can install the development version from
 [GitHub](https://github.com/) with:

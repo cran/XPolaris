@@ -1,6 +1,6 @@
 Package: XPolaris
 Title: Retrieving Soil Data from POLARIS
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: c(
     person("Luiz", "Moro Rosso", email = "lhmrosso@ksu.edu", role = "cre"),
     person("Andre", "Borja Reis", email = "andrefbr@ksu.edu", role = "aut"),
@@ -18,17 +18,18 @@ BugReports: https://github.com/lhmrosso/XPolaris/issues
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
-Suggests: covr, knitr, mapproj, maps, methods, rgdal, rmarkdown,
+Suggests: covr, knitr, mapproj, maps, methods, rgdal, rlang, rmarkdown,
         testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Depends: R (>= 2.10)
-Imports: dplyr, ggplot2, magrittr, purrr, raster, sf, tidyr, utils
+Imports: curl, dplyr, ggplot2, httr, magrittr, purrr, raster, sf,
+        tidyr, utils
 NeedsCompilation: no
-Packaged: 2021-06-16 01:17:15 UTC; lhmrosso
+Packaged: 2021-09-23 20:26:45 UTC; lhmrosso
 Author: Luiz Moro Rosso [cre],
   Andre Borja Reis [aut],
   Adrian Correndo [aut],
   Ignacio Ciampitti [aut]
 Maintainer: Luiz Moro Rosso <lhmrosso@ksu.edu>
 Repository: CRAN
-Date/Publication: 2021-06-17 07:50:09 UTC
+Date/Publication: 2021-09-23 20:40:02 UTC
